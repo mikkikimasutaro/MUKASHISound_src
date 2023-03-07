@@ -1,0 +1,6 @@
+File extraSettings = new File(rootDir, 'extra-settings.gradle')
+if (extraSettings.exists()) {
+    apply from: extraSettings
+}
+
+include ':common', ':automotive'

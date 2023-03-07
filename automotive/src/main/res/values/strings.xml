@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">MUKASHI Sound</string>
+    <string name="settings_label">Settings</string>
+
+
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+</resources>
