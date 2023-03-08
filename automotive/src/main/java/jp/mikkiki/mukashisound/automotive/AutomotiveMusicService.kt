@@ -1,41 +1,14 @@
 package jp.mikkiki.mukashisound.automotive
 
-import android.accounts.AccountManager
-import android.app.Activity
-import android.app.PendingIntent
+
 import android.content.Context
-import android.content.Intent
-import android.os.Bundle
-import android.os.ResultReceiver
-import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
 import androidx.core.content.edit
 import jp.mikkiki.mukashisound.media.MusicService
-import com.google.android.exoplayer2.Player
-import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
-/** UAMP specific command for logging into the service. */
-const val LOGIN = "jp.mikkiki.mukashisound.automotive.COMMAND.LOGIN"
-
-/** UAMP specific command for logging out of the service. */
 const val LOGOUT = "jp.mikkiki.mukashisound.automotive.COMMAND.LOGOUT"
 
-const val LOGIN_EMAIL = "jp.mikkiki.mukashisound.automotive.ARGS.LOGIN_EMAIL"
-const val LOGIN_PASSWORD = "jp.mikkiki.mukashisound.automotive.ARGS.LOGIN_PASSWORD"
-
-typealias CommandHandler = (parameters: Bundle, callback: ResultReceiver?) -> Boolean
-
-/**
- * Android Automotive specific extensions for [MusicService].
- *
- * UAMP for Android Automotive OS requires the user to login in order to demonstrate
- * how authentication works on the system. If this doesn't apply to your application,
- * this class can be skipped in favor of its parent, [MusicService].
- *
- * If you'd like to support authentication, but not prevent using the system,
- * comment out the calls to [requireLogin].
- */
 class AutomotiveMusicService : MusicService() {
 
     @ExperimentalCoroutinesApi

@@ -15,6 +15,7 @@ import android.util.Log
 import androidx.annotation.XmlRes
 import androidx.core.app.NotificationManagerCompat
 import androidx.media.MediaBrowserServiceCompat
+import com.google.android.exoplayer2.common.BuildConfig
 import org.xmlpull.v1.XmlPullParserException
 import java.io.IOException
 import java.security.MessageDigest
