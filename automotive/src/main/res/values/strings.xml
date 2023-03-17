@@ -4,6 +4,26 @@
     <string name="app_name">MUKASHI Sound</string>
     <string name="settings_label">Settings</string>
 
+    <string name="about_this_app">About This Software</string>
+    <string name="privacy_policy_and_licenses">Privacy Policy &amp; Licenses</string>
 
+    <!-- The legal disclaimer screen -->
+    <string name="legal_disclaimer_title">MUKASHI Sound: Legal disclaimer</string>
+    <string name="privacy_policy_heading">Privacy Policy</string>
+    <string name="privacy_policy_text">This application does not collect user data as declared on Google Play Store.</string>
+    <string name="disclaimer_license_heading">Licenses &amp; Acknowledgements</string>
+    <string name="disclaimer_license_text">this application is made by jpmikkiki, and Copyright belongs to the author jpmikkiki.\n
+        This software use following libraries under Apache 2.0 license. many thanks to all developers.\n
+        &#x2013; ExoPlayer: https://github.com/google/ExoPlayer \n
+        &#x2013; Glide: https://github.com/bumptech/glide \n
+        &#x2013; Gson: https://github.com/google/gson \n
+        &#x2013; Android Open Source Project: https://source.android.com \n
+        \n
+        Musics in this software is acquirec from [童謡・唱歌の世界](https://s-pst.info/douyou-syouka/). many thanks. \n
+        I confirmed only use Public Domein music, and I remove the musics from this app If any changes are proved by changing of auther or other reason. \n
+        \n
+        License texts: https://www.apache.org/licenses/LICENSE-2.0 \n
+    </string>
     <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+
 </resources>

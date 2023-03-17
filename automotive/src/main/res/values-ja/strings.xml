@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">日本の昔の音楽</string>
+    <string name="settings_label">設定</string>
+
+    <string name="about_this_app">本ソフトウェアについて</string>
+    <string name="privacy_policy_and_licenses">プライバシーポリシー、ライセンス</string>
+
+    <string name="legal_disclaimer_title">日本の昔の音楽: 免責事項</string>
+    <string name="privacy_policy_heading">プライバシーポリシー</string>
+    <string name="privacy_policy_text">このアプリケーションでは、Google Play Storeで宣言しているとおり、個人情報に相当するデータの収集を行っていません。
+        プライバシーポリシーの詳細については、以下のサイトに記載をしております。
+        \n https://mikkikimasutaro.github.io/MUKASHISound/privacypolicy.html</string>
+    <string name="disclaimer_license_heading">ライセンスおよび謝辞</string>
+    <string name="disclaimer_license_text">本ソフトウェアはjpmikkikiが作成しており、著作権は著作者であるjpmikkikiに帰属します。\n
+        また本ソフトウェアではApache 2.0ライセンスの元で開発された以下のライブラリを利用させていただいております。この場を借りて感謝いたします。\n
+        &#x2013; ExoPlayer: https://github.com/google/ExoPlayer \n
+        &#x2013; Glide: https://github.com/bumptech/glide \n
+        &#x2013; Gson: https://github.com/google/gson \n
+        &#x2013; Android Open Source Projectで提供される様々なライブラリ: https://source.android.com \n
+        \n
+        また、本ソフトウェアで提供している楽曲は[童謡・唱歌の世界](https://s-pst.info/douyou-syouka/)様より音源を利用させていただいております。大変ありがとうございます。 \n
+        Public Domeinとなった楽曲のみを利用していることを確認しておりますが、著作権者の変更・新規判明等により著作権の変更が判明した楽曲は削除させていただきます。 \n
+        \n
+        License texts: https://www.apache.org/licenses/LICENSE-2.0 \n
+    </string>
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+
+</resources>

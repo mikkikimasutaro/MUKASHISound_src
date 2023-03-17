@@ -2,6 +2,7 @@ package jp.mikkiki.mukashisound.automotive
 
 import android.app.Application
 import android.content.ComponentName
+import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -24,9 +25,9 @@ class SettingsFragment : PreferenceFragmentCompat() {
 
     override fun onPreferenceTreeClick(preference: Preference?): Boolean {
         return when (preference?.key) {
-            "logout" -> {
-                viewModel.logout()
-                requireActivity().finish()
+            "privacypolicy" -> {
+                val intent = Intent(getActivity(), DisclaimerActivity::class.java)
+                startActivity(intent)
                 true
             }
             else -> {
@@ -45,9 +46,4 @@ class SettingsFragmentViewModel(application: Application) : AndroidViewModel(app
         applicationContext,
         ComponentName(applicationContext, AutomotiveMusicService::class.java)
     )
-
-    fun logout() {
-        // Logout is fire and forget.
-        musicServiceConnection.sendCommand(LOGOUT, null)
-    }
 }

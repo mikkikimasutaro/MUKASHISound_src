@@ -40,22 +40,17 @@
             android:name="com.android.automotive"
             android:resource="@xml/automotive_app_desc" />
 
-        <!--
-        <activity
-            android:name=".SignInActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.ACTION_SIGN_IN" />
-            </intent-filter>
-        </activity>
-        -->
-
         <activity android:name=".SettingsActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".DisclaimerActivity"
+            android:exported="true" >
+        </activity>
+
 
         <!--
         Declare the MediaBrowserService which supports Android Automotive specific

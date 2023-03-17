@@ -4,17 +4,12 @@
 
     <PreferenceCategory
         android:layout="@layout/preference_category"
-        android:title="About This App">
+        android:title="@string/about_this_app">
 
         <Preference
-            android:key="logout"
+            android:key="privacypolicy"
             android:layout="@layout/preference"
-            android:title="Privacy Policy" />
-
-        <Preference
-            android:key="logout"
-            android:layout="@layout/preference"
-            android:title="Licenses" />
+            android:title="@string/privacy_policy_and_licenses" />
 
     </PreferenceCategory>
 
