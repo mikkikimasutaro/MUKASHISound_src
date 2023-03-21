@@ -12,6 +12,9 @@
     <string name="privacy_policy_text">このアプリケーションでは、Google Play Storeで宣言しているとおり、個人情報に相当するデータの収集を行っていません。
         プライバシーポリシーの詳細については、以下のサイトに記載をしております。
         \n https://mikkikimasutaro.github.io/MUKASHISound/privacypolicy.html</string>
+    <string name="legal_disclaimer_liability_heading">保証・責任</string>
+    <string name="legal_disclaimer_liability_text">このソフトウェアは \"as-is\" で提供され, 明示的または暗黙的ないかなる保証もしません。
+    いかなる場合でも、このソフトウェアの使用によって生じたいかなる損害についても、作成者は責任を負いません。</string>
     <string name="disclaimer_license_heading">ライセンスおよび謝辞</string>
     <string name="disclaimer_license_text">本ソフトウェアはjpmikkikiが作成しており、著作権は著作者であるjpmikkikiに帰属します。\n
         また本ソフトウェアではApache 2.0ライセンスの元で開発された以下のライブラリを利用させていただいております。この場を借りて感謝いたします。\n

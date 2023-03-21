@@ -52,6 +52,26 @@
                 app:layout_constraintTop_toBottomOf="@+id/privacyPolicyHeading" />
 
             <TextView
+                android:text="@string/legal_disclaimer_liability_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/liabilityHeading"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/privacyPolicyText" />
+
+            <TextView
+                android:text="@string/legal_disclaimer_liability_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/liabilityText"
+                android:textSize="@dimen/car_body2_size"
+                android:paddingBottom="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/liabilityHeading" />
+
+            <TextView
                 android:text="@string/disclaimer_license_heading"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,7 +79,7 @@
                 android:textSize="@dimen/primary_text_size"
                 app:layout_constraintStart_toStartOf="parent"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/privacyPolicyText"/>
+                app:layout_constraintTop_toBottomOf="@+id/liabilityText"/>
 
             <TextView
                 android:text="@string/disclaimer_license_text"
