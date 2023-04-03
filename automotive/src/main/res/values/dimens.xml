@@ -44,4 +44,7 @@
     <dimen name="sign_in_footer_bottom_margin">32dp</dimen>
     <dimen name="sign_in_horizontal_start_guideline">0.1</dimen>
     <dimen name="sign_in_horizontal_end_guideline">0.9</dimen>
+
+    <dimen name="car_button_radius">4dp</dimen>
+
 </resources>

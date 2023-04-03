@@ -23,7 +23,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
             .get(SettingsFragmentViewModel::class.java)
     }
 
-    override fun onPreferenceTreeClick(preference: Preference?): Boolean {
+    override fun onPreferenceTreeClick(preference: Preference): Boolean {
         return when (preference?.key) {
             "privacypolicy" -> {
                 val intent = Intent(getActivity(), DisclaimerActivity::class.java)
