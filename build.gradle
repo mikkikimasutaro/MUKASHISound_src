@@ -1,9 +1,9 @@
 buildscript {
     ext {
         // App SDK versions.
-        compileSdkVersion = 32
+        compileSdkVersion = 33
         minSdkVersion = 30
-        targetSdkVersion = 32
+        targetSdkVersion = 33
 
         // Dependency versions.
 //        androidx_car_version = '1.0.0-alpha7'
